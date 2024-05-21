@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar {
+  /* Use flexbox to space out the items in the navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f8f9fa; /* Light gray background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-logo {
+  /* Center the logo vertically */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 50px; /* Adjust the height of the logo as needed */
+}
+
+.navbar-search {
+  /* Create a search field */
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-search .rounded-input {
+    width: 200px;
+    padding: 5px;
+    border-radius: 50px; /* This will give the input a rounded appearance */
+}
+
+.bg-primary{
+  background-color: #f5385d;
+}
